@@ -2,19 +2,22 @@
 
 using namespace std;
 
-void print_tri(){
+void print_tri()
+{
     char c;
     cin >>c;
     cout << c << endl;
     cout << c << c<< endl;
     cout << c << c<< c<< endl;
-    for(int i=0;i<10000;i+=1){
+    for(int i=0; i<10000; i+=1)
+    {
         cout <<c;
     }
     cout<<endl;
 }
 
-void print_tri_n(){
+void print_tri_n()
+{
     int n;
     cin>>n;
     cout << n << endl;

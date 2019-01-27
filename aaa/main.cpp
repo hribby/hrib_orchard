@@ -2,32 +2,49 @@
 
 using namespace std;
 
-int max(int x,int y){
-        if(x>y){
-            return x;
-        }else{
-            return y;
-        }
+int max(int x,int y)
+{
+    if(x>y)
+    {
+        return x;
+    }
+    else
+    {
+        return y;
+    }
 }
-int max3(int x,int y,int z){
-    if(x>y){
-        if(x>z){
+int max3(int x,int y,int z)
+{
+    if(x>y)
+    {
+        if(x>z)
+        {
             return x;
-        }else{
+        }
+        else
+        {
             return z;
         }
-    }else{
-        if(y<z){
+    }
+    else
+    {
+        if(y<z)
+        {
             return z;
-        }else{
+        }
+        else
+        {
             return y;
         }
     }
 }
 
-void print_even(int from, int to){
-    for(int i=from;i<=to;i+=7){
-        if(i %2==0){
+void print_even(int from, int to)
+{
+    for(int i=from; i<=to; i+=7)
+    {jj
+        if(i % 2 == 0)
+        {
             cout << i << endl;
         }
     }
