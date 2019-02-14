@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //string x1("123");
+    bool good_girl = (3 > 2);
+    char x1;
+    cin>>x1;
+    cout <<x1<< endl;
+    return 0;
+}

@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int v;
+    cin>>v;
+    int w= 2 * v+ 8;
+    int h=5 * v + 80;
+    cout << "Heigh " <<h<< endl;
+    cout << "Heigh " <<w<< endl;
+    return 0;
+}

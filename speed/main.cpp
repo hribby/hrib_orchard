@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int d;
+    cin>>d;
+    int a;
+    cin>>a;
+    int b;
+    cin>> b;
+    int t = b+(a*24);
+    int v=d/t;
+
+    cout << v << endl;
+    return 0;
+}

@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int c1;
+    cin >>c1;
+    int c2;
+    cin >>c2;
+    if(c2<c1)
+    {
+        cout <<"Primul copil e mai mare cu "  << c1-c2<<" ani"<<endl;
+    }else
+    {
+        cout<<"Al doilea copil e mai mare cu " <<c2-c1<<" ani "<<endl;
+    }
+    return 0;
+}

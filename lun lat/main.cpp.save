@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int lun;
+    int lat;
+    cin i
+    cout <<"PERIMETRU"<<2*(lun+lat) << endl;
+    return 0;
+}
