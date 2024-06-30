@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636132676 source:/home/hrib/code/USACO/cow_tipping/main.cpp
+	<bits/stdc++.h>
+	<dbg.h>
+

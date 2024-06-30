@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1635352067 source:/home/hrib/code/USACO/ where_am_i/main.cpp
+	<bits/stdc++.h>
+	<dbg.h>
+

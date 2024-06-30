@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1635439875 source:/home/hrib/code/USACO/sleepy_cow_herding/main.cpp
+	<bits/stdc++.h>
+	<dbg.h>
+

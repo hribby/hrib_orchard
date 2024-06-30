@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1633371961 source:/home/hrib/code/USACO/The_Cow-Signal/main.cpp
+	<bits/stdc++.h>
+	<dbg.h>
+

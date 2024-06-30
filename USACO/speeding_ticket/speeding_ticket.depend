@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1633540369 source:/home/hrib/code/USACO/speeding_ticket/main.cpp
+	<bits/stdc++.h>
+	<dbg.h>
+
