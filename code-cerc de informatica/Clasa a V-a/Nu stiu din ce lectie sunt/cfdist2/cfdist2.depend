@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1596891306 source:/home/hrib/code/code-cerc de informatica/cfdist2/main.cpp
+	<iostream>
+	<vector>
+

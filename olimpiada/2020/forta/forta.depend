@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1631904460 source:/home/hrib/code/olimpiada/forta_2020/main.cpp
+	<bits/stdc++.h>
+	<dbg.h>
+
+1631967765 source:/home/hrib/code/olimpiada/forta/main.cpp
+	<bits/stdc++.h>
+	<dbg.h>
+

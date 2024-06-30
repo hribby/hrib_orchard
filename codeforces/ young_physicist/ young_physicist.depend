@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1625308662 source:/home/hrib/code/codeforces/ young_physicist/main.cpp
+	<bits/stdc++.h>
+	<dbg.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1593886451 source:/home/hrib/code/code-cerc de informatica/comune/main.cpp
+	<iostream>
+	<fstream>
+

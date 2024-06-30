@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1707323653 source:/home/hrib/code/ture/main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1593881000 source:/home/hrib/code/code-cerc de informatica/vraji/main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

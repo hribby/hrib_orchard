@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+CONTEST_ID=1454
+cf submit -f $1.cpp $CONTEST_ID$1

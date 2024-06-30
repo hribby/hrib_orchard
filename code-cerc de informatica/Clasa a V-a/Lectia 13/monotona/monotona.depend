@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1593453974 source:/home/hrib/code/code-cerc de informatica/monotona/main.cpp
+	<iostream>
+	<fstream>
+

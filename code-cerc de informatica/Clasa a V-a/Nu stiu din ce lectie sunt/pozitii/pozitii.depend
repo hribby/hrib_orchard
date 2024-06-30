@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1592501805 source:/home/hrib/code/code-cerc de informatica/pozitii/main.cpp
+	<iostream>
+	<vector>
+

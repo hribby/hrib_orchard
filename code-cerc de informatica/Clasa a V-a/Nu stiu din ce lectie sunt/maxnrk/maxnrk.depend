@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1594652573 source:/home/hrib/code/code-cerc de informatica/maxnrk/main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+

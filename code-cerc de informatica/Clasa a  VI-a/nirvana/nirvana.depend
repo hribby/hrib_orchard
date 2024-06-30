@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1707145392 source:/home/hrib/code/nirvana/main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

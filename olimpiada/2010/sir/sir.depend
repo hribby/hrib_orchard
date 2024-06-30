@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1604334495 source:/home/hrib/code/olimpiada/2009/sir/main.cpp
+	<iostream>
+
+1605037808 source:/home/hrib/code/olimpiada/2010/sir/main.cpp
+	<bits/stdc++.h>
+

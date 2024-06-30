@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1616605705 source:/home/hrib/code/code-cerc de informatica/Clasa a  VI-a/monsters/main.cpp
+	<iostream>
+	<deque>
+	<fstream>
+

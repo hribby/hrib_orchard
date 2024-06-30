@@ -1,0 +1,169 @@
+{
+	// Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Competitve programming declarations": {
+		"prefix": "cp",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"#define g0 get<0>",
+			"#define g1 get<1>",
+			"#ifdef LOCAL",
+			"#include <dbg.h>",
+			"#else",
+			"#define dbg(...)",
+			"#endif",
+			"typedef int32_t i3;",
+			"typedef int64_t i6;",
+			"typedef uint32_t u3;",
+			"typedef uint64_t u6;",
+			"typedef double d6;",
+			"int main(){",
+			"ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);",
+			"$0 return 0;}"
+		],
+		"description": "Headers, macros and types for competitive programming"
+	},
+	"Iterate over test cases": {
+		"prefix": "fort",
+		"body": [
+			"u6 tc;",
+			"cin>>tc;",
+			"for(u6 tcn =0;tcn<tc;tcn++){ $0 }"
+		],
+		"description": "Iterate over a number of test cases"
+	},
+	"Basic for": {
+		"prefix": "forn",
+		"body": [
+			"for(u6 $1 =0; $1<$2;$1++){ $0 }"
+		],
+		"description": "Iterate over a number of test cases"
+	},
+	"For each": {
+		"prefix": "fore",
+		"body": [
+			"for(auto e: $1){ $0 }"
+		],
+		"description": "Iterate over a collection"
+	},
+	"For with iterator": {
+		"prefix": "forit",
+		"body": [
+			"for(auto it=$1.begin();it!=$1.end();){ $0 }"
+		],
+		"description": "Iterate over a collection"
+	},
+	"Declare vector of i64": {
+		"prefix": "ve6",
+		"body": [
+			"vector<i6> $1($2);"
+		],
+		"description": "Declare a vector of i64"
+	},
+	"Declare vector of i32": {
+		"prefix": "ve3",
+		"body": [
+			"vector<i3> $1($2);"
+		],
+		"description": "Declare a vector of i32"
+	},
+	"Declare vector of bools": {
+		"prefix": "veb",
+		"body": [
+			"vector<bool> $1($2);"
+		],
+		"description": "Declare a vector of bool"
+	},
+	"Declare pair of i64": {
+		"prefix": "p6",
+		"body": [
+			"pair<i6,i6> $1;"
+		],
+		"description": "Declare a pair of i64"
+	},
+	"Declare pair of i32": {
+		"prefix": "p3",
+		"body": [
+			"pair<i3,i3> $1;"
+		],
+		"description": "Declare a pair of i32"
+	},
+	"Read vector of i64": {
+		"prefix": "rv",
+		"body": [
+			"i6 n;",
+			"cin >>n;",
+			"vector<i6> v(n);",
+			"for(i6 i=0;i<n;i++)",
+			"{cin >>v[i];}"
+		],
+		"description": "Read a vector of i64s"
+	},
+	"Read one i64": {
+		"prefix": "r1",
+		"body": [
+			"i6 $1;",
+			"cin>>$1;",
+		],
+		"description": "Read one i64 var"
+	},
+	"Read two i64s": {
+		"prefix": "r2",
+		"body": [
+			"i6 $1,$2;",
+			"cin>>$1>>$2;",
+		],
+		"description": "Read two i64 vars"
+	},
+	"Read three i64s": {
+		"prefix": "r3",
+		"body": [
+			"i6 $1,$2,$3;",
+			"cin>>$1>>$2>>$3;",
+		],
+		"description": "Read three i64 vars"
+	},
+	"Declare a dp matrix": {
+		"prefix": "dp",
+		"body": [
+			"vector<vector<i6>> dp($1+1);"
+		],
+		"description": "Declare a dp matrix"
+	}
+
+	"Elapsed time": {
+		"prefix": "chrono",
+		"body": [
+			"auto start = chrono::steady_clock::now();",
+			"auto end = chrono::steady_clock::now();",
+			"auto elaps = chrono::duration_cast<chrono::milliseconds>(end - start).count();"
+		],
+		"description": "Compute elapsed time"
+	},
+	"Lambda with one param": {
+		"prefix": "la1",
+		"body": [
+			"auto $1 = [](i6 x){return $2;};",
+		],
+		"description": "Declare a lambda with one parameter"
+	},
+	"Lambda with two params": {
+		"prefix": "la2",
+		"body": [
+			"auto $1 = [](i6 x, i6 y){return $2;};",
+		],
+		"description": "Declare a lambda with two parameters"
+	}
+}

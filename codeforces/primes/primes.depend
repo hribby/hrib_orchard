@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1627033021 source:/home/hrib/code/codeforces/primes/main.cpp
+	<bits/stdc++.h>
+	<dbg.h>
+

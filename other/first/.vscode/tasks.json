@@ -1,0 +1,58 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++ debug build active file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-DLOCAL",
+                "-D_GLIBCXX_DEBUG",
+                "-D_GLIBCXX_DEBUG_PEDANTIC",
+                "-pedantic",
+                "-Wall",
+                "-Wextra",
+                "-Wshadow",
+                "-Wlogical-op",
+                "-Wduplicated-cond",
+                "-std=c++17",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.bin"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "g++ release build active file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-D_FORTIFY_SOURCE=2",
+                "-O2",
+                "-s",
+                "-DNDEBUG",
+                "-std=c++17",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.bin"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
